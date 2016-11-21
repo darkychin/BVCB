@@ -232,7 +232,8 @@ public class BoardingMenu extends javax.swing.JFrame implements Serializable {
 
         jLabel5.setText("Status:");
 
-        status_cb.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Healthy", "Normal", "Sick", "Danger" }));
+        status_cb.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Healthy", "Sick", "Danger" }));
+        status_cb.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
         jLabel6.setText("Last Fed:");
 
