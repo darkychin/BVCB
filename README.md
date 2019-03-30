@@ -1,7 +1,7 @@
 # BVCB
 Bintang Veterinary Clinic and Boarding System (BVCB)
 
---Desciption--
+## Background
 This system is created to serve a clinic system to organise all daily business activities. Users of the system are clinic manager, receptionist, vets and boarding staffs. 
 
 There is only one receptionist in the system. Receptionist uses the system to register new customer and their pet, reserving vet consultation time, as well as request for the clinic boarding service. 
@@ -10,7 +10,8 @@ There are 8 vets in the system. Each vet is able to view their rotar table which
 
 There are 2 boarding staffs, whom responsible to update time fed and pet status to the system. 
 
---LOGIN INFO-- (hard coded in the login screen)
+## Login Info 
+(hard coded in the login screen)
 
 Manager 
 id:manager
@@ -29,7 +30,7 @@ id:vet2
 pw:vet2
 
 ...
---follow the same pattern for both id and password--
+**follow the same pattern for both id and password**
 ...
 
 Vet 8
@@ -44,7 +45,9 @@ Boarding Staff 2
 id:board2
 pw:board2
 
-----------------------------------------------------------------------------------------
+----
+
+### Note:
 Objects and object counters are uploaded along with the system as a references.
 If you wan to start the system as new, just delete all the .dat and .txt files will do the trick.
 
